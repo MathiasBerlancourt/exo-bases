@@ -1,8 +1,7 @@
 import React from "react";
 import moviesList from "./assets/movies.json";
-import Section from "./components/Section";
+import Section from "./components/MovieSections/index.jsx";
 import "./App.css";
-// import Section from "./components/Section.jsx";
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
+import "./styles.css";
 
-const Section = ({ images, category }) => {
+export const Section = ({ images, category }) => {
   return (
     <div className="container">
       <h2 className="title">{category}</h2>
@@ -12,5 +13,3 @@ const Section = ({ images, category }) => {
     </div>
   );
 };
-
-export default Section;

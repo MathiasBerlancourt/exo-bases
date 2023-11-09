@@ -1,0 +1,12 @@
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.movieRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
